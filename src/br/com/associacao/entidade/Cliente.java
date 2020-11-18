@@ -13,6 +13,7 @@ import java.io.Serializable;
  */
 public class Cliente implements Serializable{
     
+    
     private Integer id;
     private String nome;
     private String email;
