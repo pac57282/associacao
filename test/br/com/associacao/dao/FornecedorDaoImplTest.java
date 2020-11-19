@@ -10,7 +10,6 @@ import br.com.associacao.entidade.Fornecedor;
 import br.com.utilitario.UtilGerador;
 import java.util.ArrayList;
 import java.util.List;
-import org.junit.Test;
 
 /**
  *
