@@ -25,7 +25,6 @@ public class FornecedorDaoImplTest {
         fornecedorDaoImpl = new FornecedorDaoImpl();
     }
 
-    @Test
     public void testSalvar() throws Exception {
         System.out.println("salvar");
 
