@@ -30,8 +30,8 @@ public class FornecedorDaoImplTest {
         System.out.println("salvar");
 
         List<Endereco> enderecos = new ArrayList<>();
-
-        fornecedor = new Fornecedor(null, UtilGerador.gerarNumero(11), UtilGerador.gerarNumero(9), UtilGerador.gerarNome(10)), UtilGerador.gerarEmail(), UtilGerador.gerarTelefoneFixo());
+        
+        fornecedor = new Fornecedor(null, UtilGerador.gerarCaracter(15), UtilGerador.gerarNumero(10), UtilGerador.gerarNome(), UtilGerador.gerarEmail(), UtilGerador.gerarTelefoneFixo());
 
         for (int i = 0; i < 2; i++) {
             enderecos.add(gerarEndereco());
